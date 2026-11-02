@@ -1,0 +1,18 @@
+{
+  "version": "v0.1.18",
+  "source_repository": "penta-cube/coco-sch",
+  "source_sha": "7770365b97cd56d9fb2b80db795d46ea803de574",
+  "schematic_model_sha": "7411c24f0f8b3454daeff3940398c4174d717024",
+  "runtime_repository_sha": "0bba3927a84ba3452e8bd8031f3af5eece76cd45",
+  "platforms": [
+    "windows-x64"
+  ],
+  "validation": "local tests, release build, package smoke",
+  "assets": [
+    {
+      "name": "coco-sch.exe",
+      "bytes": 9433088,
+      "sha256": "17009b9547793b1d9347d44effc0c07106e854c8fe7a9b96cf385dba8116df77"
+    }
+  ]
+}
