@@ -1,0 +1,43 @@
+{
+  "version": "v0.1.19-rc.1",
+  "source_repository": "penta-cube/coco-sch",
+  "source_sha": "b3aca7dfbacfb440af20c8959e55cfcf22f26bb6",
+  "schematic_model_sha": "89fc81dbf559d798d18894f2cf5ef98bfda961f9",
+  "platforms": [
+    "windows-x64"
+  ],
+  "validation": {
+    "cargo_test_locked": [
+      [
+        "288",
+        "0",
+        "3"
+      ],
+      [
+        "2",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1"
+      ]
+    ],
+    "release_build": true,
+    "cli_help": true,
+    "actual_ai_chat": "pending"
+  },
+  "assets": [
+    {
+      "name": "coco-sch.exe",
+      "bytes": 9742848,
+      "sha256": "ced285266e31b2a66c15787d7ba07624b573a2f93c6461156edf4992660053bf"
+    }
+  ]
+}
