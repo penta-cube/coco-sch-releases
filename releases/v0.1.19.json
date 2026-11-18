@@ -1,0 +1,44 @@
+{
+  "version": "v0.1.19",
+  "source_repository": "penta-cube/coco-sch",
+  "source_sha": "b3aca7dfbacfb440af20c8959e55cfcf22f26bb6",
+  "schematic_model_sha": "89fc81dbf559d798d18894f2cf5ef98bfda961f9",
+  "source_ref": "main",
+  "platforms": [
+    "windows-x64"
+  ],
+  "validation": "cargo test --locked; cargo build --release --locked; CLI --help",
+  "test_counts": [
+    [
+      "288",
+      "0",
+      "3"
+    ],
+    [
+      "2",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "1"
+    ]
+  ],
+  "excludes_unmerged_prs": [
+    "penta-cube/coco-connect-syscap#6",
+    "penta-cube/cubic-ai-chat#477"
+  ],
+  "assets": [
+    {
+      "name": "coco-sch.exe",
+      "bytes": 9742848,
+      "sha256": "ced285266e31b2a66c15787d7ba07624b573a2f93c6461156edf4992660053bf"
+    }
+  ]
+}
